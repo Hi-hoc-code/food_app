@@ -1,8 +1,10 @@
-package com.example.food;
+package com.example.food.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.food.R;
 
 public class MainActivity extends AppCompatActivity {
 

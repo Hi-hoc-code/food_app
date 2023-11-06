@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.FavoriteActivity"
+    android:orientation="vertical"
+    android:paddingVertical="30dp"
+    android:paddingHorizontal="20dp">
+    <ImageView
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:background="@drawable/delivery"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Free delivery offers"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginTop="30dp"/>
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Free delivery for new customers via Apple Pay and others payment methods."
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#22A45D"
+        android:text="GET STARTED"
+        app:cornerRadius="8dp"
+        android:layout_marginTop="80dp"/>
+</LinearLayout>
